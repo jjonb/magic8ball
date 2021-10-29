@@ -1,0 +1,53 @@
+
+#magic-div {
+  display: flex;
+  justify-content: center; 
+}
+#magic-pic {
+    width: 500px;
+    height: auto;
+}
+
+#answers {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#food-div {
+  display: flex;
+  justify-content: center;  
+  flex-flow: column;
+}
+
+#food-desc {
+  color: aliceblue;
+}
+
+#food-img {
+  border-radius: 30%;
+  width: 300px;
+  height: auto;
+  align-self: center;
+}
+
+
+
+body {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+
+button {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: aqua;
+}
+
+input {
+  background-color: white;
+}
